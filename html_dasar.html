@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <!-- Ini adalah bagian head  -->
+  <head>
+    <title>Pertemuan 2: HTML Dasar</title>
+
+    <!-- Import css (cascading stylesheet)  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- Ini adalah bagian body  -->
+  <body>
+    <h1>Dasar-Dasar HTML</h1>
+    <br />
+    <h2>Heading 2</h2>
+    <hr />
+    <p>Membuat tabel dengan HTML:</p>
+
+    <!-- Ini adalah tag untuk membuat tabel  -->
+    <!-- <table> disebut tag, kemudian border="1" disebut atribut -->
+    <table border="1">
+      <thead>
+        <tr>
+          <td style="width: 20px">No.</td>
+          <td>Nama</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>Nabi Adam</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Nabi Idris</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Nabi Hud</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+    <p>Menampilkan gambar dengan HTML</p>
+    <img src="./bunga.jpeg" style="width: 300px" />
+
+    <hr />
+    <p>Membuat link dengan HTML</p>
+
+    Untuk pergi ke Google, klik
+    <a href="https://google.com" target="_blank">di sini</a>.
+
+    <ul>
+      <li>
+        <a href="mailto:feri@gmail.com">
+          Link untuk mengirim email ke feri@gmail.com</a
+        >
+      </li>
+      <li>
+        <a href="tel:6283840011102">Link untuk telpon</a>
+      </li>
+
+      <li>
+        <a href="#p1">Link ke p1</a>
+      </li>
+    </ul>
+
+    <hr />
+
+    <p>Membuat div dengan HTML</p>
+
+    <div style="background: green; padding: 20px">
+      <p>Ini adalah konten div 1.</p>
+    </div>
+
+    <div style="background: blue; padding: 20px">
+      <p>Ini adalah konten div 2.</p>
+    </div>
+
+    <div class="bg-primary">Bg primary</div>
+
+    <h1 class="orange">Dasar-Dasar CSS</h1>
+
+    <p>Ini adalah paragraf tanpa class.</p>
+    <p class="font-large">Ini adalah paragraf dengan class font-large.</p>
+    <p class="font-small">Ini adalah paragraf dengan class font-small.</p>
+
+    <h3 class="font-large">
+      Ini adalah h3 (heading 3) dengan class font-large.
+    </h3>
+
+    <hr />
+    <h1>CSS ID</h1>
+
+    <p id="p1">Ini adalah paragraf dengan ID p1</p>
+  </body>
+</html>

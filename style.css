@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+p {
+  color: gray;
+}
+
+table {
+  width: 100%;
+}
+
+/* Selector class  */
+.orange {
+  color: orange;
+}
+
+.font-large {
+  font-size: 30px;
+}
+
+.font-small {
+  font-size: 10px;
+}
+
+/* Selector ID (hanya boleh ada 1 id di 1 halaman, id harus unik)  */
+#p1 {
+  text-transform: uppercase;
+}
