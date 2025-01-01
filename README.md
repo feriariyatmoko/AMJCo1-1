@@ -1,16 +1,17 @@
+#Kelas Anak Muslim Jago Coding AMJCo1
 🌟Alhamdulillah, Telah Dibuka Pendaftaran Program Pelatihan Coding Untuk Anak🌟
 
 🖥"Anak Muslim Jago Coding Batch 1"🖥
 
-InsyaAllah bersama :\
-Kak Feri Ariyatmoko, S.Pd.\
+InsyaAllah bersama :
+Kak Feri Ariyatmoko, S.Pd.
 
-- Founder ASHLIH DEV\
+- Founder ASHLIH DEV
 - Web/Mobile App Developer di Yayasan Bimbingan Islam
 
-📍Peserta Terbatas\
+📍Peserta Terbatas
 
-- Untuk Usia 9-12 tahun\
+- Untuk Usia 9-12 tahun
 - Bisa mengoperasikan perangkat Laptop/Komputer
 
 📒Materi yang akan diajarkan:\
