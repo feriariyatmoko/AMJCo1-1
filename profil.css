@@ -25,3 +25,12 @@
 .text-center {
   text-align: center;
 }
+
+.table {
+  width: 100%;
+  border: 1px solid;
+}
+
+.table tr td {
+  border: 1px solid;
+}
