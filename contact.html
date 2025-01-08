@@ -11,9 +11,34 @@
 
       <div class="form-wrapper">
         <form class="contact-form">
-          <input type="text" class="input-form" />
+          <label>Nama</label>
+
+          <input type="text" class="input-form" id="name" />
+
+          <button
+            type="button"
+            class="btn btn-primary w-100"
+            onClick="greetUser()"
+          >
+            Kirim
+          </button>
         </form>
+
+        <p id="helo"></p>
       </div>
     </div>
+
+    <script>
+      function greetUser() {
+        //1. Buat variabel "name"
+        var name = document.getElementById("name").value;
+
+        //2. Menampilkan alert/popup
+        alert("Assalamualaikum, " + name);
+
+        document.getElementById("helo").innerHTML =
+          "Terima kasih, " + name + " sudah menghubungi saya.";
+      }
+    </script>
   </body>
 </html>

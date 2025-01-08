@@ -37,15 +37,24 @@
 }
 
 .btn {
+  padding: 15px;
+  border-radius: 20px;
 }
 
 .btn-primary {
+  background-color: green;
+  color: white;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .form-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .contact-form {
@@ -54,4 +63,7 @@
 
 .input-form {
   width: 100%;
+  padding: 15px;
+  border: solid 2px grey;
+  border-radius: 20px;
 }
