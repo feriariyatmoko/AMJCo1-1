@@ -35,7 +35,7 @@
           <p id="helo"></p>
         </div>
 
-        <div class="msg-wrapper w-50 d-none">
+        <div id="msg-wrapper" class="msg-wrapper w-50 d-none">
           <p id="pesan-placeholder"></p>
         </div>
       </div>
@@ -60,7 +60,19 @@
 
       function sendMsg(prop) {
         //prop adalah property yang bisa dikirim ke sebuah function
-        alert(prop);
+        //assign atau menjadikan variabel msg berisi/mempunyai value = prop
+        // (yang dikirim dari function)
+
+        var msg = prop;
+
+        var msgWrapper = document.getElementById("msg-wrapper");
+
+        //untuk menghapus class d-none
+        msgWrapper.classList.remove("d-none");
+
+        var msgPlaceholder = document.getElementById("pesan-placeholder");
+        //menampilkan pesan
+        msgPlaceholder.innerHTML = msg;
       }
     </script>
   </body>
