@@ -9,22 +9,35 @@
       <h1 class="text-center">Hubungi saya</h1>
       <hr />
 
-      <div class="form-wrapper">
-        <form class="contact-form">
-          <label>Nama</label>
+      <div class="contact-wrapper">
+        <div class="form-wrapper w-50">
+          <form class="contact-form">
+            <label>Nama</label>
 
-          <input type="text" class="input-form mb-3" id="name" />
+            <input type="text" class="input-form mb-3" id="name" />
 
-          <button
-            type="button"
-            class="btn btn-primary w-100"
-            onClick="greetUser()"
-          >
-            Kirim
-          </button>
-        </form>
+            <label>Pesan</label>
+            <textarea
+              class="textarea input-form mb-3"
+              rows="7"
+              id="pesan"
+            ></textarea>
 
-        <p id="helo"></p>
+            <button
+              type="button"
+              class="btn btn-primary w-100"
+              onClick="greetUser()"
+            >
+              Kirim
+            </button>
+          </form>
+
+          <p id="helo"></p>
+        </div>
+
+        <div class="msg-wrapper w-50">
+          <p>Pesannya nanti akan ditampilkan di sini.</p>
+        </div>
       </div>
     </div>
 
