@@ -36,7 +36,7 @@
         </div>
 
         <div class="msg-wrapper w-50 d-none">
-          <p>Pesannya nanti akan ditampilkan di sini.</p>
+          <p id="pesan-placeholder"></p>
         </div>
       </div>
     </div>
@@ -51,6 +51,16 @@
 
         document.getElementById("helo").innerHTML =
           "Terima kasih, " + name + " sudah menghubungi saya.";
+
+        //3. Buat variabel "pesan"
+        var msg = document.getElementById("pesan").value;
+
+        sendMsg(msg);
+      }
+
+      function sendMsg(prop) {
+        //prop adalah property yang bisa dikirim ke sebuah function
+        alert(prop);
       }
     </script>
   </body>
