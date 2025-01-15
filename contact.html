@@ -36,6 +36,7 @@
         </div>
 
         <div id="msg-wrapper" class="msg-wrapper w-50 d-none">
+          <p><span id="sender"></span> mengirimkan:</p>
           <p id="pesan-placeholder"></p>
         </div>
       </div>
@@ -55,15 +56,16 @@
         //3. Buat variabel "pesan"
         var msg = document.getElementById("pesan").value;
 
-        sendMsg(msg);
+        sendMsg(msg, name);
       }
 
-      function sendMsg(prop) {
+      function sendMsg(prop, prop2) {
         //prop adalah property yang bisa dikirim ke sebuah function
         //assign atau menjadikan variabel msg berisi/mempunyai value = prop
         // (yang dikirim dari function)
 
         var msg = prop;
+        var name = prop2;
 
         var msgWrapper = document.getElementById("msg-wrapper");
 
@@ -71,8 +73,10 @@
         msgWrapper.classList.remove("d-none");
 
         var msgPlaceholder = document.getElementById("pesan-placeholder");
+        var sender = document.getElementById("sender");
         //menampilkan pesan
         msgPlaceholder.innerHTML = msg;
+        sender.innerHTML = name;
       }
     </script>
   </body>
